@@ -1,7 +1,9 @@
 package com.example.semana07.entity;
 
-public class Libro {
+import java.io.Serializable;
 
+public class Libro implements Serializable {
+//Hola
     private int idLibro;
     private String titulo;
     private int anio;
